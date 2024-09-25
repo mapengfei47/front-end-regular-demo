@@ -3,7 +3,7 @@
  * @Author: allanma allanma@xiaoe-tech.com
  * @Date: 2024-09-25 11:40:07
  * @LastEditors: allanma allanma@xiaoe-tech.com
- * @LastEditTime: 2024-09-25 14:28:20
+ * @LastEditTime: 2024-09-25 14:37:34
  * @FilePath: /front-end-regular-demo/src/components/HelloWorld.vue
  * @Description: 
 -->
@@ -16,6 +16,7 @@ console.log('HelloWorld.vue');
 	console.log('HelloWorld.vue');
 		console.log('HelloWorld.vue');
 			console.log('HelloWorld.vue');
+		const a = '111'
 
 const count = ref(0)
 </script>

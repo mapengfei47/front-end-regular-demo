@@ -3,7 +3,7 @@
  * @Author: allanma allanma@xiaoe-tech.com
  * @Date: 2024-09-25 11:40:07
  * @LastEditors: allanma allanma@xiaoe-tech.com
- * @LastEditTime: 2024-09-26 10:29:35
+ * @LastEditTime: 2024-09-26 11:00:58
  * @FilePath: /front-end-regular-demo/src/components/HelloWorld.vue
  * @Description: 
 -->
@@ -12,12 +12,12 @@ import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
 console.log('HelloWorld.vue')
-console.log('HelloWorld.vue');
-	console.log('HelloWorld.vue');
-		console.log('HelloWorld.vue');
-			console.log('HelloWorld.vue');
-		const a = '111'
-		console.log('HelloWorld.vue' + a);
+console.log('HelloWorld.vue')
+console.log('HelloWorld.vue')
+console.log('HelloWorld.vue')
+console.log('HelloWorld.vue')
+const a = '111'
+console.log('HelloWorld.vue' + a)
 
 const count = ref(0)
 function addCount() {
@@ -30,6 +30,12 @@ function addCount2() {
 }
 
 addCount2()
+
+function addCount3() {
+    count.value++
+}
+
+addCount3()
 </script>
 
 <template>

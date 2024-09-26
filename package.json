@@ -24,6 +24,6 @@
         "vue-tsc": "^2.0.29"
     },
     "lint-staged": {
-        "**/*": "prettier --write --ignore-unknown"
+        "*.{js,jsx,ts,tsx,html,css}": "prettier --write"
     }
 }

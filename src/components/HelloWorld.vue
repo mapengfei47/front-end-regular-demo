@@ -3,7 +3,7 @@
  * @Author: allanma allanma@xiaoe-tech.com
  * @Date: 2024-09-25 11:40:07
  * @LastEditors: allanma allanma@xiaoe-tech.com
- * @LastEditTime: 2024-09-26 10:23:47
+ * @LastEditTime: 2024-09-26 10:29:35
  * @FilePath: /front-end-regular-demo/src/components/HelloWorld.vue
  * @Description: 
 -->
@@ -24,6 +24,12 @@ function addCount() {
     count.value++
 }
 addCount()
+
+function addCount2() {
+    count.value++
+}
+
+addCount2()
 </script>
 
 <template>

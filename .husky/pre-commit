@@ -1,0 +1,13 @@
+###
+ # Copyright: 小鹅通-企培产品中心提供技术支持
+ # @Author: allanma allanma@xiaoe-tech.com
+ # @Date: 2024-09-26 10:27:38
+ # @LastEditors: allanma allanma@xiaoe-tech.com
+ # @LastEditTime: 2024-09-26 10:28:28
+ # @FilePath: /front-end-regular-demo/.husky/pre-commit
+ # @Description: 
+### 
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm run test

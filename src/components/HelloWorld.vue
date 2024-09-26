@@ -2,7 +2,7 @@
  * @Author: allanma allanma@xiaoe-tech.com
  * @Date: 2024-09-25 11:40:07
  * @LastEditors: allanma allanma@xiaoe-tech.com
- * @LastEditTime: 2024-09-26 15:19:36
+ * @LastEditTime: 2024-09-26 15:21:10
  * @FilePath: /front-end-regular-demo/src/components/HelloWorld.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -13,10 +13,10 @@ import { ref } from 'vue'
 defineProps<{ msg: string }>()
 console.log('HelloWorld.vue')
 console.log('HelloWorld.vue')
-            console.log('HelloWorld.vue')
 console.log('HelloWorld.vue')
 console.log('HelloWorld.vue')
-        const a = '111';
+console.log('HelloWorld.vue')
+const a = '111'
 console.log('HelloWorld.vue' + a)
 
 const count = ref(0)
@@ -36,6 +36,10 @@ function addCount3() {
 }
 
 addCount3()
+function addCount4() {
+	count.value++
+}
+addCount4()
 </script>
 
 <template>
@@ -69,11 +73,15 @@ addCount3()
 <style scoped>
 .read-the-docs {
 	color: #888;
-    aa{
-        color: #888;background-color: #888;background-color: #888;
-    bb{
-        color: #888;background-color: #888;background-color: #888;
-    }
-    }
+	aa {
+		color: #888;
+		background-color: #888;
+		background-color: #888;
+		bb {
+			color: #888;
+			background-color: #888;
+			background-color: #888;
+		}
+	}
 }
 </style>

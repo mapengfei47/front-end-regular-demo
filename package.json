@@ -30,14 +30,14 @@
 	},
 	"lint-staged": {
 		"src/*.{js,jsx,ts,tsx}": [
-			"eslint --fix",
+			"npx eslint --fix",
 			"prettier --write"
 		],
 		"*.json": [
 			"prettier --write"
 		],
 		"src/*.vue": [
-			"eslint --fix",
+			"npx eslint --fix",
 			"prettier --write"
 		],
 		"src/*.{scss,less,html}": [

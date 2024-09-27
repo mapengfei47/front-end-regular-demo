@@ -2,7 +2,7 @@
  * @Author: allanma allanma@xiaoe-tech.com
  * @Date: 2024-09-25 11:40:07
  * @LastEditors: allanma allanma@xiaoe-tech.com
- * @LastEditTime: 2024-09-27 16:33:08
+ * @LastEditTime: 2024-09-27 18:14:19
  * @FilePath: /front-end-regular-demo/src/components/HelloWorld.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -11,13 +11,13 @@
 import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
-console.log('HelloWorld.vue')
-console.log('HelloWorld.vue')
-console.log('HelloWorld.vue')
-console.log('HelloWorld.vue')
-console.log('HelloWorld.vue')
-const a = '111'
-console.log('HelloWorld.vue' + a)
+// console.log('HelloWorld.vue')
+// console.log('HelloWorld.vue')
+// console.log('HelloWorld.vue')
+// console.log('HelloWorld.vue')
+// console.log('HelloWorld.vue')
+// const a = '111'
+// console.log('HelloWorld.vue' + a)
 
 const count = ref(0)
 function addCount() {
@@ -40,8 +40,6 @@ function addCount4() {
 	count.value++
 }
 addCount4()
-
-const aaa = '22'
 </script>
 
 <template>

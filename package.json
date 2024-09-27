@@ -26,21 +26,22 @@
 		"typescript": "^5.5.3",
 		"typescript-eslint": "^8.7.0",
 		"vite": "^5.4.1",
+		"vite-plugin-eslint": "^1.8.1",
 		"vue-tsc": "^2.0.29"
 	},
 	"lint-staged": {
-		"src/*.{js,jsx,ts,tsx}": [
-			"npx eslint --fix",
+		"*.{js,jsx,ts,tsx}": [
+			"npx eslint src --fix",
 			"prettier --write"
 		],
 		"*.json": [
 			"prettier --write"
 		],
-		"src/*.vue": [
-			"npx eslint --fix",
+		"*.vue": [
+			"npx eslint --ext src --fix",
 			"prettier --write"
 		],
-		"src/*.{scss,less,html}": [
+		"*.{scss,less,html}": [
 			"prettier --write"
 		],
 		"*.md": [

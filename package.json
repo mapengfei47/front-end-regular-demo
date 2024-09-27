@@ -15,15 +15,21 @@
         "vue": "^3.4.37"
     },
     "devDependencies": {
+        "@eslint/js": "^9.11.1",
         "@vitejs/plugin-vue": "^5.1.2",
+        "eslint": "^9.11.1",
+        "eslint-plugin-vue": "^9.28.0",
+        "globals": "^15.9.0",
         "husky": "^8.0.0",
         "lint-staged": "^15.2.10",
         "pico": "^0.1.17",
         "typescript": "^5.5.3",
+        "typescript-eslint": "^8.7.0",
         "vite": "^5.4.1",
         "vue-tsc": "^2.0.29"
     },
     "lint-staged": {
-        "*.{js,jsx,ts,tsx,html,css,vue}": "prettier --write"
+        "*.{js,jsx,ts,tsx,html,css,vue}": "prettier --write",
+        "*.{js,jsx,ts,tsx}": "eslint --fix"
     }
 }

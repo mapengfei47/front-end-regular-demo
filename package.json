@@ -38,7 +38,7 @@
 			"prettier --write"
 		],
 		"*.vue": [
-			"npx eslint --ext src --fix",
+			"npx eslint src --fix",
 			"prettier --write"
 		],
 		"*.{scss,less,html}": [

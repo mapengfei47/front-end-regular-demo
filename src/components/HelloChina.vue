@@ -2,7 +2,7 @@
  * @Author: allanma allanma@xiaoe-tech.com
  * @Date: 2024-09-25 11:40:07
  * @LastEditors: allanma allanma@xiaoe-tech.com
- * @LastEditTime: 2024-09-27 18:01:39
+ * @LastEditTime: 2024-09-29 14:24:12
  * @FilePath: /front-end-regular-demo/src/components/HelloWorld.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -40,9 +40,6 @@ function addCount4() {
 	count.value++
 }
 addCount4()
-
-// const aaa = '22'
-// console.log(999)
 </script>
 
 <template>

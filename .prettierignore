@@ -1,9 +1,0 @@
-# Ignore artifacts:
-dist
-build
-publiv
-node_modules
-coverage
-
-# Ignore all HTML files:
-**/*.html

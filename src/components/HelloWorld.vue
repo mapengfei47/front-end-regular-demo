@@ -2,9 +2,6 @@
 import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
-console.log(111)
-console.log(222)
-
 const count = ref(0)
 </script>
 
